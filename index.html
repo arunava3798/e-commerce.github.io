@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>E-Commerce website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="name">
+		<div class="nametxt">
+			<span class="border">
+				CONTOUR WEBSTORE
+			</span>
+		</div>
+		<div class="tagline"><span class="tagline_border">Always in style</span></div>
+	</div>
+	<section class="first">
+		<h2>ABOUT US</h2>
+		<p>E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest fashion trends when you can find it on the Internet in a single click? Contour webstore houses every fashion you can possibly imagine, from trending, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Contour webstore is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.
+</p>
+	</section>
+
+		<div class="clothes_store">
+		<div id="mySidebar" class="sidebar">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+		<a href="men.html">MEN'S STORE</a>
+		<a href="women.html">WOMEN'S STORE</a>
+	</div>
+	<div id="main">
+		<button class="openbtn" onclick="openNav()">GARMENT'S STORE</button>
+	</div>
+	<div class="enter_store">Click on the button to enter the store</div>
+	</div>
+	
+	<script>
+function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+	<section class="second">
+		<h2>ABOUT OUR GARMENTS</h2>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneancommodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+	</section>
+	<div class="crowd">
+		<div class="crowdtxt">
+			<span class="border">
+				WE PROVIDE HUSSLE FREE SHOPPING
+			</span>
+		</div>
+	</div>
+	<section class="third">
+		<h2>MOTO</h2>
+		<p>Our moto is to provide a hussle free shopping experience to your and your family. You can shop with us anytime in your busy schedule, we are open 24x7. We also provide door step delivery in your convinient time. Customer satisfaction is our main goal.</p>
+	</section>
+</body>
+</html>

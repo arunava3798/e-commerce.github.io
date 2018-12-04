@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Unlock');
+body, html
+{
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+.name
+{
+	background-image: url(../images/name.jpg);
+	height: 800px;
+}
+.clothes_store
+{
+	background-image: url(../images/clothes.jpg);
+	height: 400px;
+}
+.crowd
+{
+	background-image: url(../images/crowd.jpg);
+	height: 800px;
+}
+.name, .clothes_store, .crowd
+{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.75;
+	background-attachment: fixed;
+}
+.tagline
+{
+	color: #111;
+	font-size: 65px;
+	text-align: center;
+	padding-top: 30%;
+}
+.enter_store
+{
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 13%;
+	padding-right: 7%;
+}
+.first, .second, .third
+{
+	text-align: center;
+	padding: 50px 80px;
+	background-color: #282e34;
+	color: #666;
+	font-family: 'Raleway', sans-serif;
+}
+.nametxt
+{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 50px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.nametxt .border
+{
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+}
+.crowdtxt
+{
+	position: center center;
+	padding-top: 25%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 30px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.crowdtxt .border
+{
+	background-color: #fff;
+	color: #111;
+	padding: 20px;
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: blue;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 35%;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
